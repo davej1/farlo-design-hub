@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Urbanist", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-brand-primary:    #FFA500;
+  --color-brand-secondary:  #FF4309;
+  --color-brand-accent:     #4285F4;
+  --color-brand-surface:    #FFA500;
+  --color-brand-background: #FAF9F6;
+  --color-brand-text:       #020A1E;
+  --color-brand-muted:      #776E00;
+  --color-brand-border:     #C1C1C1;
+}
